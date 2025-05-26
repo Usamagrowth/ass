@@ -33,12 +33,27 @@
         <h1 class="img-element">Fresh flowers <br/> for any special Occasion</h1>
     </div>
     <script>
-    const email = /^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+(\.[a-zA-Z]{2,})/;
-    const results = /\s/.test(email)
-    alert(results);
-    const password = /^[a-zA-Z0-9+-]/;
-    const result = /\s/.test(password)
-    alert(result);
+   alert("login your Credential")
+    //const email = /^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+(\.[a-zA-Z]{2,})/;
+    //const results = /\s/.test(email)
+    //alert(results);
+    //const password = /^[a-zA-Z0-9+-]/;
+   // const result = /\s/.test(password)
+    //alert(result);
+   
+   const button = document.querySelector(".btn1")
+   const email = document.querySelector("#email")
+   button.addEventListener("click", function(){ 
+    const login = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
+    if  (login =  /\s/) {
+    alert("Successful")
+    }
+    else{
+    alert("Wrong Details");
+    }
+   });
+    
+
     </script>
 </div>
 </body>
