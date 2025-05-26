@@ -33,11 +33,12 @@
         <h1 class="img-element">Fresh flowers <br/> for any special Occasion</h1>
     </div>
     <script>
-        alert("Login Credential")
-        const email = /^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+(\.[a-zA-Z]{2,})+$/;
-     console.log(email.test("usama23@343.com"));
+    const email = /^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+(\.[a-zA-Z]{2,})/;
+    const results = /\s/.test(email)
+    alert(results);
     const password = /^[a-zA-Z0-9+-]/;
-    console.log(password.test("usama23@343.com"));
+    const result = /\s/.test(password)
+    alert(result);
     </script>
 </div>
 </body>

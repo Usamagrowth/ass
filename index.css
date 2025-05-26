@@ -121,5 +121,13 @@ input{
     .flower{
     display: none;
 }
+ 
+input{
+    width: 60vw;
+}
+
+ .btn1, .btn2, .account, .social{
+    width: 63vw;
+}
 
 }
