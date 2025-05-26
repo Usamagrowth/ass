@@ -5,20 +5,24 @@
 }
 
 .section{
-    width: 100%;
+    width: 100vw;
     display: flex;
     gap: 10px;
+}
+
+.head{
+    padding-bottom:20px ;
 }
 
 .form{
   display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 25vw;
     padding: 50px;
     gap: 10px;
 }
 form{
-    width: 100%;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -26,7 +30,7 @@ form{
 }
 
 input{
-    width: 97%;
+    width: 24vw;
     height: 30px;
     border: 1px solid ;
     padding-left: 10px;
@@ -36,44 +40,43 @@ input{
 
 
 .form-section{
-    width: 50%;
+    width: 25vw;
     background: white;
 
 }
 
 .or{
-    width: 50%;
-    justify-content: center;
-    align-content: center;
-    padding-left: 24%;
+    padding-left: 155px;
 }
 
 .social-icon{
     display: flex;
-    width: 50%;
+    width: 25vw;
     gap: 50px;
 }
 
 .btn1{
     background: black;
     color: white;
-    width: 100%;
+    width: 25vw;
     height: 35px;
+    cursor: pointer;
 
 }
 
 .btn2{
     background: rgb(236, 234, 234);
     border: none;
-    width: 50%;
+    width: 25vw;
     height: 35px;
+    cursor: pointer;
 }
 
 .forget-p{
     display: flex;
-    width: 100%;
+    width: 25vw;
     color: black;
-    padding-left: 58%;
+    padding-left: 235px;
 }
 
 .social{
@@ -85,14 +88,14 @@ input{
 
 .so{
     display: flex;
-    width: 100%;
+    width: 25vw;
     border: 1px solid rgba(218, 215, 215, 0.863);
     padding: 5px;   
 }
 
 .account{
-    width: 70%;
-  padding-left: 14%;
+    width: 25vw;
+  padding-left: 95px;
   padding-top: 45px;
 }
 
@@ -100,7 +103,7 @@ input{
 }
 
 .img{
-    width: 65vw;
+    width: 60vw;
     height: 550px;
     position: relative;
     padding: 30px;
@@ -109,7 +112,7 @@ input{
 .img-element{
     position: absolute;
     bottom: 10%;
-    left: 50%;
+    left: 37%;
     color: white;
     background: none;
 }
