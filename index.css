@@ -115,6 +115,7 @@ input{
     left: 37%;
     color: white;
     background: none;
+    font-size: 44px;
 }
 
 @media(max-width:600px){
