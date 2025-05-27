@@ -11,7 +11,7 @@
     <div class="form">
    <div class="form-section">
     <h1 class="head">Welcome<br/> back!</h1>
-     <form action="submit">
+     <form>
      <label for="email">Email</label>
     <input type="email" placeholder="Enter your Email" id="email">
     <label for="password">Password</label>
@@ -32,27 +32,7 @@
         <img class="img" src="assets/fredrik-solli-wandem-DeqrCRTSbPQ-unsplash.jpg" alt="">
         <h1 class="img-element">Fresh flowers <br/> for any special Occasion</h1>
     </div>
-    <script>
-   const email = document.querySelector("#email")
-   const password = document.querySelector("#password")
-   const button = document.querySelector(".btn1")
-
-   const userLogin = {
-    email: "appclick@gmail.com";
-    password: "1234AppClick"
-   };
-   button.addEventListener("click", function(){ 
-    const useremail = email.value;
-    const  userpassword = password.value;
-    if  (useremail === userLogin.email && userpassword === userLogin.password) {
-    alert("Successful")
-    } else{
-    alert("Wrong Details");
-    }
-   });
-    
-
-    </script>
+  <script src="index.js"></script>
 </div>
 </body>
 </html>
