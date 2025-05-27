@@ -33,22 +33,20 @@
         <h1 class="img-element">Fresh flowers <br/> for any special Occasion</h1>
     </div>
     <script>
-   alert("login your Credential")
-    //const email = /^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+(\.[a-zA-Z]{2,})/;
-    //const results = /\s/.test(email)
-    //alert(results);
-    //const password = /^[a-zA-Z0-9+-]/;
-   // const result = /\s/.test(password)
-    //alert(result);
-   
-   const button = document.querySelector(".btn1")
    const email = document.querySelector("#email")
+   const password = document.querySelector("#password")
+   const button = document.querySelector(".btn1")
+
+   const userLogin = {
+    email: "appclick@gmail.com";
+    password: "1234AppClick"
+   };
    button.addEventListener("click", function(){ 
-    const login = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
-    if  (login =  /\s/) {
+    const useremail = email.value;
+    const  userpassword = password.value;
+    if  (useremail === userLogin.email && userpassword === userLogin.password) {
     alert("Successful")
-    }
-    else{
+    } else{
     alert("Wrong Details");
     }
    });
