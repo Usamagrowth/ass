@@ -132,3 +132,37 @@ input{
 }
 
 }
+
+
+
+.btn-section{
+    display: flex;
+    padding: 150px;
+    width: 100vw;
+}
+
+.add{
+    width: 70px;
+    height: 35px;
+    background: green;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.remove{
+width: 70px;
+height: 35px;
+background: red;
+border: none;
+cursor: pointer;
+font-size: 30px;
+}
+
+.number{
+    font-size: 30px;
+}
+
+#first-child{
+    display: none;
+}

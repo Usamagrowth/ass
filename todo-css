@@ -1,0 +1,19 @@
+
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+.completed {
+  text-decoration: line-through;
+  text-decoration-style: double;
+  text-decoration-color: red;
+  color: gray;
+}
+li {
+  margin: 8px 0;
+  list-style: none;
+}
+button {
+  margin-left: 10px;
+}

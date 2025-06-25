@@ -1,7 +1,6 @@
- const email = document.querySelector("#email")
+   const email = document.querySelector("#email")
    const password = document.querySelector("#password")
    const button = document.querySelector(".btn1")
-
    const userLogin = {
     email: "appclick@gmail.com",
     password: "1234AppClick",
@@ -14,4 +13,19 @@
     } else{
     alert("Wrong Details");
     }
+   });
+
+
+   const add = document.querySelector(".add")
+   const remove = document.querySelector(".remove")
+   let number = 0;
+   add.addEventListener("click", function(){
+    number++;
+    document.querySelector(".number").textContent = number;
+   });
+
+   remove.addEventListener("click", function(){
+    if (number > 0){
+    number--;
+    document.querySelector(".number").textContent = number;}
    });
